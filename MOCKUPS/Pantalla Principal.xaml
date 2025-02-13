@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MOCKUPS.Pantalla_Principal"
+             Title="Pantalla_Principal"
+              BackgroundColor="#FDF7F7"
+            NavigationPage.HasNavigationBar="False">
+    
+    <ScrollView>
+        <!-- Barra de arriba -->
+        <VerticalStackLayout Spacing="0" BackgroundColor="#FFF7EE">
+            <Frame BackgroundColor="#AC8764" HeightRequest="60" Padding="10,0" CornerRadius="30" Margin="0,25,0,0">
+                <Grid>
+                    <Image Source="puntos1.png" HeightRequest="32" HorizontalOptions="Start"/>
+
+
+                    <Label Text="Inicio"
+                           TextColor="White"
+                           FontSize="20"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" 
+                           />
+                    <Image Source="pataa.png" HeightRequest="43"
+                HorizontalOptions="End"
+                VerticalOptions="Center"/>
+
+                </Grid>
+            </Frame>
+            <!-- Frame que contiene los datos del dispensador 1 -->
+            <Frame Margin="20,50,20,0" HeightRequest="150" BackgroundColor="#AC8764" HasShadow="True">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnFrameTapped"/>
+                </Frame.GestureRecognizers>
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Image Source="removida.png" HeightRequest="100" HorizontalOptions="Start" />
+                    <!-- Stack para los labels alineados a la derecha -->
+                    <VerticalStackLayout HorizontalOptions="End">
+                        <Label Text="Dispensador Edificio No.1" 
+                   TextColor="White" 
+                   FontSize="20" 
+                   HorizontalOptions="End"/>
+                        <Label Text="Dispensador lleno" 
+                   TextColor="White" 
+                   FontSize="20" 
+                   HorizontalOptions="End"/>
+
+                        <Label Text="" 
+                   TextColor="White" 
+                   FontSize="20" 
+                   HorizontalOptions="End"/>
+                        
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+            <!-- Frame que contiene los datos del dispensador 2 -->
+            <Frame Margin="20,50,20,0" HeightRequest="150" BackgroundColor="#AC8764" HasShadow="True">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnFrameTapped"/>
+                </Frame.GestureRecognizers>
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Image Source="removida.png" HeightRequest="100" HorizontalOptions="Start" />
+                    <!-- Stack para los labels alineados a la derecha -->
+                    <VerticalStackLayout HorizontalOptions="End">
+                        <Label Text="Dispensador Edificio No.2" 
+                                   TextColor="White" 
+                                   FontSize="20" 
+                                   HorizontalOptions="End"/>
+                        <Label Text="Dispensador Vacio" 
+                               TextColor="White" 
+                               FontSize="20" 
+                               HorizontalOptions="End"/>
+
+                        <Label Text="" 
+                               TextColor="White" 
+                               FontSize="20" 
+                               HorizontalOptions="End"/>
+
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+            <!-- Frame que contiene los datos del dispensador 3 -->
+            <Frame Margin="20,50,20,0" HeightRequest="150" BackgroundColor="#AC8764" HasShadow="True">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnFrameTapped"/>
+                </Frame.GestureRecognizers>
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Image Source="removida.png" HeightRequest="100" HorizontalOptions="Start" />
+                    <!-- Stack para los labels alineados a la derecha -->
+                    <VerticalStackLayout HorizontalOptions="End">
+                        <Label Text="Dispensador Edificio No.3" 
+                               TextColor="White" 
+                               FontSize="20" 
+                               HorizontalOptions="End"/>
+                        <Label Text="Dispensador a Medias" 
+                               TextColor="White" 
+                               FontSize="20" 
+                               HorizontalOptions="End"/>
+
+                        <Label Text="" 
+                               TextColor="White" 
+                               FontSize="20" 
+                               HorizontalOptions="End"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+            <Frame WidthRequest="60" HeightRequest="70" BackgroundColor="#FFF7EE" BorderColor="#FFF7EE" >
+                <Button 
+                        Text="+" 
+                        FontSize="30"
+                        CornerRadius="10"
+                        WidthRequest="60"
+                        HeightRequest="60"
+                        BackgroundColor="#AC8764"
+                        TextColor="White"
+                        AbsoluteLayout.LayoutBounds="1,1"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

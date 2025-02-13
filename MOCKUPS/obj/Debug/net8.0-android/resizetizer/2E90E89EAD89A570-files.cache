@@ -1,6 +1,16 @@
-﻿obj\Debug\net8.0-android\resizetizer\r\drawable\pata.png
+﻿obj\Debug\net8.0-android\resizetizer\r\drawable\cam.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\camara.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\histo.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\historial.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\pata.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\pataa.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\puntos.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\puntos1.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\reci.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\recipiente.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\recipienteremove.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\remov.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\removida.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png

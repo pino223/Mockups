@@ -7,9 +7,9 @@
 
 
     <VerticalStackLayout Spacing="0" BackgroundColor="#FFF7EE">
-        <Frame BackgroundColor="#8e2020" HeightRequest="60" Padding="10,0" CornerRadius="30" Margin="0,25,0,0">
+        <Frame BackgroundColor="#AC8764" HeightRequest="60" Padding="10,0" CornerRadius="30" Margin="0,25,0,0">
             <Grid>
-                <Image Source="puntos.png" HeightRequest="32" HorizontalOptions="Start"/>
+                <Image Source="puntos1.png" HeightRequest="32" HorizontalOptions="Start"/>
 
                 
                 <Label Text="Inicio"
@@ -18,7 +18,7 @@
                    HorizontalOptions="Center"
                    VerticalOptions="Center" 
                    />
-                <Image Source="pata.png" HeightRequest="43"
+                <Image Source="pataa.png" HeightRequest="43"
                         HorizontalOptions="End"
                         VerticalOptions="Center"/>
 
@@ -27,42 +27,48 @@
 
 
         <VerticalStackLayout Spacing="20" Padding="10" VerticalOptions="FillAndExpand">
-            <Image Source="food_bowl_icon.png"
-                   HeightRequest="150"
-                   HorizontalOptions="Center" />
-
-            <Image Source="recipiente.png" HeightRequest="150" />
-
-
-
+            <Label Text="Lleno" HorizontalOptions="Center"
+                   VerticalOptions="Center" Margin="0,100,0,30"
+                   FontSize="25"/>
+            <Image Source="recipiente.png" HeightRequest="150" Margin="0,0,0,90" />
             <Frame BackgroundColor="#AC8764"
                    CornerRadius="30"
                    Padding="50"
                    HasShadow="False"
                    HorizontalOptions="Fill"
                    VerticalOptions="End"
-                   Margin="0,100,0,0"
                    >
-                <VerticalStackLayout Spacing="20">
+                <VerticalStackLayout Padding="20">
+                    <Label Text="Selecciona la cantidad de comida" 
+                           FontSize="20" 
+                           HorizontalOptions="Center" />
 
-                    <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" VerticalOptions="Center">
-                        <Label Text="100%" HorizontalOptions="Start" Margin="0,0,0,0" TextColor="White" FontSize="20"/>
-                        <Label Text="120gr" HorizontalOptions="Center" Margin="70,0,70,0" TextColor="White" FontSize="20"/>
-                        <Label Text="Lleno" HorizontalOptions="End" Margin="0,0,0,0" TextColor="White" FontSize="20"/>
-                    </HorizontalStackLayout>
+                    <!-- Slider para seleccionar gramos -->
+                    <Slider x:Name="GramosSlider"
+                            Minimum="10" 
+                            Maximum="200" 
+                            Value="50"
+                            ThumbColor="Brown"
+                            DragCompleted="GramosSlider_ValueChanged"/>
 
+                    <!-- Label para mostrar la cantidad seleccionada -->
+                    <Label x:Name="GramosLabel"
+                           Text="Cantidad: 50 g"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+
+                    <!-- Botón para dispensar comida -->
                     <Button Text="Dispensar comida"
                             BackgroundColor="#AC8764"
                             TextColor="White"
+                            Margin="0,15,0,0"
                             CornerRadius="20"
                             HeightRequest="70" 
                             WidthRequest="300"
-                            Margin="0,0,0,0"
-                            Padding="0,0,0,0"
                             BorderColor="White"
                             BorderWidth="3"
                             FontSize="25"
-                            />
+                            Clicked="DispensarComida_Clicked"/>
                 </VerticalStackLayout>
             </Frame>
         </VerticalStackLayout>
