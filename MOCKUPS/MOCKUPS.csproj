@@ -63,6 +63,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Dispensador.xaml.cs">
+	    <DependentUpon>Dispensador.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Notificaciones.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

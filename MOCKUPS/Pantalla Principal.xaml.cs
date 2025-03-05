@@ -7,8 +7,5 @@ public partial class Pantalla_Principal : ContentPage
 		InitializeComponent();
 	}
 
-    private void OnFrameTapped(object sender, EventArgs e)
-    {
-        
-    }
+
 }

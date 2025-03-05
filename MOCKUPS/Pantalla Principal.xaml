@@ -29,9 +29,7 @@
             <!-- Frame que contiene los datos del dispensador 1 -->
             <Frame Margin="20,50,20,0" HeightRequest="150" BackgroundColor="#AC8764" HasShadow="True">
 
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnFrameTapped"/>
-                </Frame.GestureRecognizers>
+
 
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Image Source="removida.png" HeightRequest="100" HorizontalOptions="Start" />
@@ -46,20 +44,13 @@
                    FontSize="20" 
                    HorizontalOptions="End"/>
 
-                        <Label Text="" 
-                   TextColor="White" 
-                   FontSize="20" 
-                   HorizontalOptions="End"/>
-                        
                     </VerticalStackLayout>
                 </HorizontalStackLayout>
             </Frame>
             <!-- Frame que contiene los datos del dispensador 2 -->
             <Frame Margin="20,50,20,0" HeightRequest="150" BackgroundColor="#AC8764" HasShadow="True">
 
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnFrameTapped"/>
-                </Frame.GestureRecognizers>
+
 
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Image Source="removida.png" HeightRequest="100" HorizontalOptions="Start" />
@@ -85,9 +76,7 @@
             <!-- Frame que contiene los datos del dispensador 3 -->
             <Frame Margin="20,50,20,0" HeightRequest="150" BackgroundColor="#AC8764" HasShadow="True">
 
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnFrameTapped"/>
-                </Frame.GestureRecognizers>
+
 
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Image Source="removida.png" HeightRequest="100" HorizontalOptions="Start" />
