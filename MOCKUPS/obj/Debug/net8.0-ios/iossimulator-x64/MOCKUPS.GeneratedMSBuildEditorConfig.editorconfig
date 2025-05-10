@@ -30,24 +30,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = MOCKUPS.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/ASUS/source/repos/MOCKUPS/MOCKUPS/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MOCKUPS.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
-[C:/Users/ASUS/source/repos/MOCKUPS/MOCKUPS/Notificaciones.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MOCKUPS.Notificaciones.xaml
-build_metadata.AdditionalFiles.TargetPath = Notificaciones.xaml
-build_metadata.AdditionalFiles.RelativePath = Notificaciones.xaml
-
-[C:/Users/ASUS/source/repos/MOCKUPS/MOCKUPS/Pantalla Principal.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MOCKUPS.Pantalla Principal.xaml
-build_metadata.AdditionalFiles.TargetPath = Pantalla Principal.xaml
-build_metadata.AdditionalFiles.RelativePath = Pantalla Principal.xaml
-
 [C:/Users/ASUS/source/repos/MOCKUPS/MOCKUPS/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MOCKUPS.Resources.Styles.Colors.xaml
@@ -59,3 +41,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MOCKUPS.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/ASUS/source/repos/MOCKUPS/MOCKUPS/Views/Dispensador.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MOCKUPS.Views.Dispensador.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Dispensador.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Dispensador.xaml
+
+[C:/Users/ASUS/source/repos/MOCKUPS/MOCKUPS/Views/Notificaciones.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MOCKUPS.Views.Notificaciones.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Notificaciones.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Notificaciones.xaml
+
+[C:/Users/ASUS/source/repos/MOCKUPS/MOCKUPS/Views/Pantalla Principal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MOCKUPS.Views.Pantalla Principal.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Pantalla Principal.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Pantalla Principal.xaml
